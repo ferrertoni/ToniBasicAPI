@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t.httpApi", "ToniBasicAPI\t.httpApi.csproj", "{5F1A5F24-3204-4077-A451-EC9CDF3C61A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t.httpApi", "ToniBasicAPI\t.httpApi.csproj", "{5F1A5F24-3204-4077-A451-EC9CDF3C61A2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_Application", "1_Application", "{97B534A6-9438-413F-B08E-8D81D5DC84F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t.app", "t.app\t.app.csproj", "{3742191C-F256-4581-A3A0-F006D7134D48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t.app", "t.app\t.app.csproj", "{3742191C-F256-4581-A3A0-F006D7134D48}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_Domain", "2_Domain", "{8F84A6DE-C4B0-4E34-AB00-65751979C899}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_DataAccess", "3_DataAccess", "{FC3D3715-67F3-4DD8-87E6-ED5FC4A3C8E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t.domain", "t.domain\t.domain.csproj", "{9608803A-2469-4A6D-81C8-D20BFEDD0A51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t.domain", "t.domain\t.domain.csproj", "{9608803A-2469-4A6D-81C8-D20BFEDD0A51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t.data.EF", "t.data.EF\t.data.EF.csproj", "{68BCBC3E-D27F-473C-824E-7E8D2C8E94C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "t.data.EF", "t.data.EF\t.data.EF.csproj", "{68BCBC3E-D27F-473C-824E-7E8D2C8E94C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{92035309-DDB0-42C8-BBA4-10FBC4357A72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{68BCBC3E-D27F-473C-824E-7E8D2C8E94C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68BCBC3E-D27F-473C-824E-7E8D2C8E94C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68BCBC3E-D27F-473C-824E-7E8D2C8E94C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92035309-DDB0-42C8-BBA4-10FBC4357A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92035309-DDB0-42C8-BBA4-10FBC4357A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92035309-DDB0-42C8-BBA4-10FBC4357A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92035309-DDB0-42C8-BBA4-10FBC4357A72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
